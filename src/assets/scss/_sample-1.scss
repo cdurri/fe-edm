@@ -1,0 +1,51 @@
+body,
+html,
+.body {
+  background: #1A47A0 !important;
+}
+
+.sample-container {
+  background: transparent !important;
+  p {
+    padding-bottom: 5px;
+  }
+}
+
+.column-one {
+  padding-top: 100px;
+}
+
+.column-two {
+  background: $white;
+  padding: 40px !important;
+  border-radius: 3px;
+  p:last-of-type {
+    padding-bottom: 60px;
+  }
+}
+
+.column-three {
+  padding-top: 40px;
+}
+
+.sample-intro-outro {
+  display: block;
+}
+
+.sample-salutation, .sample-intro {
+  padding-bottom: 20px;
+}
+
+.sample-referral {
+  display: block;
+  text-align: center;
+  color: $white;
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+/*@media screen and (max-width:575px) {
+  th.small-12.sample-three-images {display: none !important;}
+}*/
